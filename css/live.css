@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+section.nav{
+	background: linear-gradient(#00000061, #00000061),linear-gradient(#00000061, #00000061),url(../image/for_live.jpg);
+	overflow: hidden;
+	height: 750px;
+	background-size: cover;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+div.nav_left{
+	width: 157px;
+	float:left;
+	margin-left: 74px;
+	margin-top: 13px;
+}
+div.nav_left img {
+	width:100%;
+}
+div.menu ul {
+	list-style:none;
+	float:right;
+	margin-right: 30px;
+}
+div.menu ul li{
+	float:left;
+	/* border:1px solid red; */
+	height: 58px;
+	line-height: 78px;
+	text-align:center;
+	margin-right: 24px;
+}
+a.live_class {
+    border: 1px solid white;
+    padding: 2px 3px;
+    background: red;
+    border-radius: 2px;
+}
+div.menu ul li a {
+	color: white;
+	text-decoration:none;
+	font-size: 15px;
+	text-transform: uppercase;
+	transition:.5s;
+}
+div.menu ul li a:hover{
+	color:#FF5722;
+}
+div.menu ul li a.live_class:hover{
+	color:white;
+}
+div#nav_mid {
+	width:400px;
+	border:2px solid white;
+	overflow:hidden;
+	color:white;
+	font-size:30px;
+	text-align:center;
+	text-transform:uppercase;
+	position: absolute;
+	top: 203px;
+	left: 69px;
+	background: red;
+	line-height: 52px;
+	font-family: 'Coiny', cursive;
+}
+div.nav_mid_bot{
+	overflow:hidden;
+	font-size: 61px;
+	color: white;
+	position: absolute;
+	top: 322px;
+	left: 71px;
+	font-weight: bold;
+}
+.nav_mid_bot b {
+    color: #FF5722;
+}
+.nav_mid_font ul {
+    position: absolute;
+    top: 429px;
+    left: 71px;
+}
+div.nav_mid_font ul li{
+	list-style:none;
+	float:left;
+	border:1px solid white;
+	width: 36px;
+	text-align:center;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 50%;
+	margin-right: 18px;
+}
+div.nav_mid_font ul li a{
+	color:white;
+	text-decoration:none;
+	font-size: 16px;
+}
+div.nav_mid_font ul li:hover{
+	background:#FF5722;
+}
+div.nav_right_pic{
+	position:absolute;
+	width: 375px;
+	height: 436px;
+	top: 364px;
+	left: 817px;
+	border: 3px solid red;
+}
+div.nav_right_pic img{
+	width:100%;
+	height: 100%;
+}
+section.nav:before {
+    content: "";
+    position: absolute;
+    width: 1271px;
+    height: 170px;
+    top: 689px;
+    left: -3px;
+    background: #ffffff;
+    transform: rotate(-3deg);
+}
